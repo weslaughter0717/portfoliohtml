@@ -1,0 +1,31 @@
+#box{
+    float: left;
+    width: 40%;
+    background-image: url("https://www.planwallpaper.com/static/images/1757527.jpg");
+    opacity: .8;
+    color: red;
+    padding: 20px 10px 0px 10px;
+    margin: 100px 20px 20px 20px;
+    border-radius: 60px;
+}
+
+#scrape{
+    text-align: center;
+    color: red;
+    padding-left: 210px;
+    float: right;
+    width: 50%;
+    background-image: url("https://www.planwallpaper.com/static/images/1757527.jpg");
+    opacity: .8;
+    border-radius: 60px;
+}
+
+body{
+
+    background-image: url("https://images3.alphacoders.com/853/thumb-1920-85305.jpg");
+    background-repeat: no-repeat;
+}
+
+#submit {
+    border-radius: 60px;
+}
