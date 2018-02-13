@@ -2,7 +2,7 @@
   "development": {
     "username": "h9rlxyh0eiysg3nd",
     "password": "r7o1661kgdsk1xsu",
-    "database": "Profile",
+    "database": "rztai3rfh19sd2pj",
     "host": "etdq12exrvdjisg6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
@@ -16,7 +16,7 @@
   "production": {
     "username": "h9rlxyh0eiysg3nd",
     "password": "r7o1661kgdsk1xsu",
-    "database": "database_production",
+    "database": "rztai3rfh19sd2pj",
     "host": "etdq12exrvdjisg6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   }
