@@ -1,31 +1,99 @@
 #box{
+    background: #917C78;
+    margin-top: 0px;
+    font-weight: 300;
+    /*padding: 20px 0;*/
+    font-family: Roboto, sans-serif;
     float: left;
-    width: 40%;
-    background-image: url("https://www.planwallpaper.com/static/images/1757527.jpg");
-    opacity: .8;
-    color: red;
-    padding: 20px 10px 0px 10px;
-    margin: 100px 20px 20px 20px;
-    border-radius: 60px;
+    padding: 10px 10px 10px 10px;
+}
+#box:hover {
+    border: 1px solid green;
 }
 
-#scrape{
-    text-align: center;
-    color: red;
-    padding-left: 210px;
-    float: right;
-    width: 50%;
-    background-image: url("https://www.planwallpaper.com/static/images/1757527.jpg");
-    opacity: .8;
-    border-radius: 60px;
-}
+/*#scrape{*/
+/*    text-align: center;*/
+/*    color: red;*/
+/*    padding-left: 210px;*/
+/*    float: right;*/
+/*    width: 50%;*/
+/*    background-image: url("https://www.planwallpaper.com/static/images/1757527.jpg");*/
+/*    opacity: .8;*/
+/*    border-radius: 60px;*/
+/*}*/
 
 body{
 
-    background-image: url("https://images3.alphacoders.com/853/thumb-1920-85305.jpg");
+    background-image: url("https://www.findyourwallpaper.com/wp-content/uploads/2013/10/Christmas-Backgrounds-hd.jpeg");
     background-repeat: no-repeat;
 }
 
 #submit {
     border-radius: 60px;
+}
+
+/*container*/
+
+/* display this row with flex and use wrap (= respect columns' widths) */
+
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* vertical spacing between columns */
+
+[class*="col-"] {
+  margin-bottom: 30px;
+}
+
+.content {
+  height: 100%;
+  padding: 20px 20px 10px;
+  color: #fff;
+}
+
+
+/* Demo backgrounds and styling*/
+
+.colour-1 {
+  background: #483C46;
+  color: #fff;
+}
+
+.colour-2 {
+  background: #3C6E71;
+}
+
+.colour-3 {
+  background: #70AE6E;
+}
+.colour-1:hover{
+    border: 3px solid green;
+    cursor: hand;
+}
+.colour-2:hover{
+    border: 3px solid green;
+    cursor: hand;
+}
+.colour-3:hover{
+    border: 3px solid green;
+    cursor: hand;
+}
+
+body {
+  padding: 20px 0;
+  font-family: Roboto, sans-serif;
+}
+
+.content h3 {
+  margin-top: 0px;
+  font-weight: 300;
+}
+
+h1 {
+  color: blue;
+  font-weight: 300;
+  margin-bottom: 40px;
 }

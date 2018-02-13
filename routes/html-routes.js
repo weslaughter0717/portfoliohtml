@@ -15,7 +15,14 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "../public/html/main.html"));
   });
   
+  app.get("/aboutme", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/html/about.html"));
+  });
+  
   app.get("/comments", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/html/comments.html"));
+  });
+  app.get("/resume", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/html/resume.html"));
   });
 };

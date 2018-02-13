@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/about.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Portfolio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/main">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/aboutme">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/comments">Comments</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/resume">Resume</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/weslaughter0717">GitHub</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <!--jumbotron-->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Eric Slaughter</h1>
+    <p class="lead">Just a little bit about me.</p>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4">
+      <h2>Where am I from?</h2>
+      <p>I am originally from Charleston, SC. I truely love my hometown. The beach, the people, and the food for sure.
+      My mother and grandfather still live there, and while I love to visit, I am trying to relocate.</p>
+        <img class="d-block w-100" src="http://www.same.org/portals/0/posts/charleston/images/HomePage/home7.jpg" alt="Pineapple Fountain">
+        </div>
+    <div class="col-sm-4">
+      <h2>Hobbies</h2>
+      <p>I currently am obsessed with coding and getting better everyday. I am working on a project for a small engineering team in Charlotte, NC.
+      The project is a bluetooth location device for dental companies. I also love playing music... i have played guitar for years and a good jam session is always in the cards.
+      Also working through a new Javascript book I purchased. Then lets just include all water sports, except for maybe "Marco Polo"</p>
+    </div>
+    <div class="col-md-4">
+      <h2>Mathematics</h2>
+      <p>I have a true passion for mathematics and can't wait to include my existing knowledge into my coding. I recently wrote a distance calculator for 
+      a project called Jam-Clash. The formula accounts for the rads of the earth and is actually called the Haversine Formula. In addition to this little tid bit,
+      I have a long list of antiquity problems that keep your math skills in check.</p>
+    </div>
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="column" onclick="openTab('b1');" style="background:green;">Books I Want to Read</div>
+  <div class="column" onclick="openTab('b2');" style="background:blue;">Math Problems</div>
+  <div class="column" onclick="openTab('b3');" style="background:grey;">Interesting Fact About Charleston</div>
+</div>
+
+<!-- The expanding grid (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none;background:green">
+  <!-- If you want the ability to close the container, add a close button -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h3>1. Coders at Work: Reflections on the Craft of Programming</h3>
+  <p>If you’re curious about life as a programmer than Coders at Work is the book for you. It’s packed with interesting interviews from 15 accomplished programmers and computer scientists including Joshua Bloch, Peter Norvig, Donald Knuth, Ken Thomson, and Jamie Zawinski. The author, Peter Seibel (a programmer turned writer), got interviewees to open up about the famous projects that they worked on and the inspiring stories behind them. 
+  Coders at Work gives a peek into what makes some of the greatest programmers tick and how they think. Definitely a must read!</p>
+  <img class="d-block w-25" src="../assets/Coders-at-Work.jpg" alt="some book">
+
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:blue">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h3>Squaring The Circle</h3>
+  <p>Squaring the circle is a problem proposed by ancient geometers. It is the challenge of constructing a square with the same area as a given circle by using only a finite number of steps with compass and straightedge. ... The expression "squaring the circle" is sometimes used as a metaphor for trying to do the impossible.</p>
+    <img class="d-block w-50" src="http://gym-diap-thess.thess.sch.gr/images/Image2.gif" alt="antiquity problem">
+
+  
+</div>
+
+<div id="b3" class="containerTab" style="display:none;background:grey">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h3>Literally Stuff I Didn't Know</h3>
+  
+  <ol>
+<li> Pineapples are a symbol of hospitality in Charleston. Back in the day, 
+          sea captains would announce their arrival and invite people to hear their stories by sticking a pineapple prominently 
+          outside their homes.</li> 
+<li> If the fire department comes around in Charleston saying they need to blow up your house—guess 
+  what? They totally can.</li> 
+<li>. That policy is pretty ironic, considering the motto of the city is “Aedes mores juraque curat” 
+  which is Fancy for “She guards her buildings, customs and laws.”</li>  
+<li>  All of American theatre history began in Charleston at 
+  the Dock Street Theatre, the very first one built in the country.</li> 
+<li>  The indomitable Stephen Colbert lived on James Island 
+  as a boy. Does that make his first friends the original members of the Colbert Nation?</li>  
+<li>  In a city of firsts, one that most
+  people remember is Noah and Allie’s first date to the movies was filmed at the American Theatre.</li>  
+<li>  Everyone’s favorite corrupt 
+  politician from “House of Cards,” Frank Underwood, attended a fictionalized version of the Citadel, a renowned military college.</li>  
+<li>  Local minor league team the Sea of Dogs have a Director of Fun. And their Director of Fun is Bill Murray. This guy is everywhere.</li>  
+<li>  The modern Othello adaptation, “O,” was filmed entirely in Charleston. </li> 
+<li> George Gershwin’s celebrated folk opera, “Porgy and 
+  Bess,” is set in Catfish Row (modeled after Cabbage Row) right in Charleston.</li>  
+<li>  Gershwin himself wrote the opera while staying on Folly’s Island.</li>  
+<li>  The very man who inspired the character of Porgy, a goat-holding vegetable merchant by the name of Samuel Smalls, 
+  is buried in the graveyard next to James Island Presbyterian.</li> 
+<li>  Arguably the oldest Youtube sensation, Angry Grandpa gets up to his hijinx at his home in Charleston.</li> 
+  </ol>
+</div>
+    
+</body>
+<script src="../js/memory.js"></script>
+</html>
