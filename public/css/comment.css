@@ -26,6 +26,11 @@ body{
 
     background-image: url("https://www.findyourwallpaper.com/wp-content/uploads/2013/10/Christmas-Backgrounds-hd.jpeg");
     background-repeat: no-repeat;
+    background-color: #8A2BE2;
+    background-attachment: fixed;
+    background-position: center; 
+    margin-bottom: 60em;
+    padding: 10px 30px 10px 10px;
 }
 
 #submit {
