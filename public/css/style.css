@@ -41,7 +41,7 @@
 /*This is my movable name*/
 
 
-
+/*credit to kriten miller i think*/
 body
 {
     background-image: url(http://i.imgur.com/AJeLlCi.gif);
@@ -130,7 +130,7 @@ span
     font-size: 40px;
 
     -webkit-transform: scale(1.5,1.5);
-        -ms-transform: scale(1.5,1.5);
+        -ms-transform: scale(166,1.5);
             transform: scale(1.5,1.5);
 
     opacity: 1;
@@ -162,4 +162,10 @@ span
     opacity: 1;
 
     filter: alpha(opacity=100);
+}
+@media screen and (max-width: 500px) {
+.unbreakable-container{
+    visibility: hidden;
+}
+
 }
